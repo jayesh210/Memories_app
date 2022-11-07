@@ -4,7 +4,7 @@ import { useTheme } from '@mui/material/styles';
 export default makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
-      margin: useTheme().spacing(1)
+      margin: useTheme().spacing(2)
     },
   },
   paper: {
