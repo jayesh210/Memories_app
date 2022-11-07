@@ -6,6 +6,7 @@ export default makeStyles(() => ({
       margin: '30px 0',
       display: 'flex',
       flexDirection: 'row',
+      flexWrap:'wrap',
       justifyContent: 'space',
       alignItems: 'center',
     },

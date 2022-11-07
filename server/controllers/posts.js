@@ -9,8 +9,10 @@ export const getPost= async (req , res)=>{
     }
 }
 export const createPost= async (req , res)=>{
+    // console.log("Idhar aaya")
     const post=req.body;
-    const newPost=new PostMessages(post);
+    const newPost=new PostMessage(post);
+    // console.log(newPost)
     try {
         await newPost.save()
         res.status(201).json(newPost);
